@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    tools:context=".Imagen4">
+
+    <!-- Botón de Cierre (Salir) -->
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Salir"
+        android:textColor="#FF0000" />
+
+    <!-- Layout para botones  en la parte inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Botones numerados -->
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+</RelativeLayout>
